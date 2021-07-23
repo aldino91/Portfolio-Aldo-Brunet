@@ -1,4 +1,261 @@
-.titolo{
-color: brown;
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* IMMAGINE DI SFONDO */
+.sfondo{
+    background-image: url(../immagini/aldo-studiando2.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
     
 }
+
+@media screen and (max-width: 480px) {
+    .sfondo{
+        background-position: 43% 75%;
+    }
+  }
+
+/* NOME E OBBIETTIVO */
+header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+    border-bottom: 2px solid white 
+}
+
+header div{
+    margin:auto;
+}
+
+.titolo{
+    width: 90%;
+}
+.nome{
+width: 70%;
+margin: 20px auto;
+color: white;
+border: 2px solid white;
+border-radius: 10px;
+padding: 2px 5px;
+text-align: center;
+
+}
+
+.obbiettivo{
+    width: 100%;
+    color: white;
+    padding: 2px 0px;
+    text-align: center;
+}
+
+
+/* PRESENTAZIONE */
+
+.presentazione{
+    width: 30%;
+    margin: 20px auto;
+    background-color: rgba(3, 3, 3, 0.144);
+    border-radius: 10px;
+}
+
+.presentazione div{    
+    text-align: center;
+    padding: 5px 10px;
+    line-height: 1.8;
+    color: white;
+
+}
+
+.face{
+    width: 200px;
+    margin: 40px auto;
+
+}
+.foto{
+    width: 100%;
+    border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+    border-bottom-left-radius: 47%;
+    border-bottom-right-radius: 47%;
+
+}
+
+
+    .presentazione{
+        width: 60%;
+    }
+    .presentazione div{
+        line-height: 1.1;
+    }
+    .face{
+        margin: 20px auto;
+    }
+  
+
+
+  /* SOCIAL */
+
+  .social{
+      position: absolute;
+      left: 2%;
+      bottom: 40%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .github{
+    background-image: linear-gradient(to top,rgb(245, 66, 66), rgb(243, 119, 140), rgb(250, 121, 250));
+      border-radius: 4px;
+      margin-bottom: 5px;
+      width: 30px;
+      height: 30px;
+  }
+
+  .facebook{
+      background-color: white;
+      border-radius: 4px;
+      margin-bottom: 5px;
+      width: 30px;
+      height: 30px;
+  }
+
+  .linkedin{
+      background-color: white;
+      border-radius: 4px;
+      margin-bottom: 5px;
+      width: 30px;
+      height: 30px;
+  }
+
+
+  /* STORY */
+
+
+  .story{
+display: flex;
+flex-direction: column;
+width: 90%;
+text-align: center;
+margin: 40px auto;
+color: white;
+border-top: 2px white solid;
+border-radius: 10px;
+
+  }
+
+  .racconto{
+      margin: 0 auto;
+      background-color: rgba(3, 3, 3, 0.144);
+    border-radius: 10px;
+
+  }
+
+  .parole{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .parole p{
+      color: rgb(204, 18, 18);
+      background-color: rgba(61, 58, 58, 0.459);
+    border-radius: 10px;
+    padding: 4px 40px;
+      
+  }
+
+  .sottolineato{
+      text-decoration: underline;
+  }
+
+  @media screen and (max-width: 648px) {
+
+    .parole{
+        flex-direction: column;
+    }
+  }
+
+
+  /* ABOUT ME */
+
+
+  .aboutme{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    border-top: 2px white solid;
+    border-radius: 10px;
+
+  }
+
+
+  .gridcontainer{
+      width: 90%;
+    margin: 0 auto;
+    background-color: rgba(3, 3, 3, 0.144);
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: auto auto auto;
+    padding: 10px 10px;
+    
+  }
+
+  .gridcontainer div{
+    color: white;
+    border-radius: 10px;
+    padding: 50px 40px;
+    background-color: rgba(61, 58, 58, 0.459);
+    transition: all 0.8s;
+    margin-top: 50px;
+  }
+
+  .griditem:hover {
+    color: rgb(204, 18, 18);
+    background-color: rgba(216, 210, 210, 0.459);
+  }
+  .griditem1:hover {
+    color: rgb(204, 18, 18);
+    background-color: rgba(216, 210, 210, 0.459);
+  }
+  .griditem2:hover {
+    color: rgb(204, 18, 18);
+    background-color: rgba(216, 210, 210, 0.459);
+  }
+  .griditem3:hover {
+    color: rgb(204, 18, 18);
+    background-color: rgba(216, 210, 210, 0.459);
+  }
+  .griditem4:hover {
+    color: rgb(204, 18, 18);
+    background-color: rgba(216, 210, 210, 0.459);
+  }
+  .griditem5:hover {
+    color: rgb(204, 18, 18);
+    background-color: rgba(216, 210, 210, 0.459);
+  }
+
+  @media screen and (max-width: 648px) {
+
+    .gridcontainer{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+
