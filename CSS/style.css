@@ -221,7 +221,7 @@ border-radius: 10px;
     padding: 50px 40px;
     background-color: rgba(61, 58, 58, 0.459);
     transition: all 0.8s;
-    margin-top: 50px;
+   
   }
 
   .griditem:hover {
@@ -249,12 +249,198 @@ border-radius: 10px;
     background-color: rgba(216, 210, 210, 0.459);
   }
 
+/* MODAL */
+  .modal{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    color: white;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 4;
+  }
+
+  .modal1{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    color: white;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 4;
+  }
+
+  .modal2{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    color: white;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 4;
+  }
+
+  .modal3{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    color: white;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 4;
+  }
+
+  .modal4{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    color: white;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 4;
+  }
+
+  .modal5{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    color: white;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.733);
+    z-index: 4;
+  }
+  .grid-modal{
+    width: 100%;
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    
+  }
+
+  .grid-modal img{
+    border-radius: 10px;
+  }
+   
+  .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+  }
+
+  .close1{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+  }
+  .close2{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+  }
+
+  .close3{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+  }
+
+  .close4{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+  }
+
+  .close5{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+  }
+
+  .close:hover{
+    background-color: rgb(71, 233, 31);
+  }
+
+  .close1:hover{
+    background-color: rgb(71, 233, 31);
+  }
+
+  .close2:hover{
+    background-color: rgb(71, 233, 31);
+  }
+  .close3:hover{
+    background-color: rgb(71, 233, 31);
+  }
+
+  .close4:hover{
+    background-color: rgb(71, 233, 31);
+  }
+  .close5:hover{
+    background-color: rgb(71, 233, 31);
+  }
+
+
   @media screen and (max-width: 648px) {
 
     .gridcontainer{
         display: flex;
         flex-direction: column;
     }
+
+    .grid-modal{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
   }
 
 
