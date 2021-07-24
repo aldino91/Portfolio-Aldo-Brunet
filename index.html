@@ -9,10 +9,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
 </head>
-<body>
+<body class="sfondo">
 
-    <div class="sfondo">
-
+    <div>
         <header>
 
             <div class="titolo">
@@ -246,23 +245,79 @@
             <img src="./immagini/srilanka10.jpeg" width="200" height="200">
             <img src="./immagini/srilanka11.jpeg" width="200" height="200">
             <img src="./immagini/srilanka12.jpeg" width="200" height="200">
-            <img src="./immagini/srilanka13.jpeg" width="200" height="200">    
+               
           </div>
           <div class="close5">&times;</div>
         </div>
 
-        <div class="social">
-            <a href="https://github.com/aldino91">
-                <img src="./immagini/github.png"  class="github">
-            </a>
-            <a href="https://www.facebook.com/aldo.brunet.3">
-                <img src="./immagini/facebook.png"  class="facebook">
-            </a>
-            <a  href="https://www.linkedin.com/in/aldo-brunet-590117208"> 
-                <img src="./immagini/linkedin.png" class="linkedin">
-            </a>
-            
+        <div class="portfolio">
+          <h2>Portfolio</h2>
+          <img src="./immagini/e-commerce.png" class="e-commerce">
+          <a href="https://github.com/aldino91/e-commerce">Link Github</a>
         </div>
+
+        <div class="contact">
+          <h2>Contact</h2>
+          <form
+              action="mailto:aldobrunet@icloud.com"
+              method="POST"
+              encType="text/plain"
+              autoComplete="on"
+              class="form"
+            >
+              <div class="intform">
+                <h3>Se vuoi contattarmi, scrivimi qui grazie.</h3>
+              
+              <input
+                type="text"
+                placeholder="Nome"
+                name="name"
+                
+              />
+              <input
+                type="text"
+                placeholder="Cognome"
+                name="lastname"
+                
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                
+              />
+              <textarea
+                name="commentario"
+                placeholder="Scrivi qui il tuo commentario"
+                
+              ></textarea>
+              <input
+                type="submit"
+                value="Inviare"
+                class="submit"
+              />
+            </div>
+        </div>
+
+        
+      </div>
+
+      <div class="social">
+        <a href="https://github.com/aldino91">
+            <img src="./immagini/github.png"  class="github">
+        </a>
+        <a href="https://www.facebook.com/aldo.brunet.3">
+            <img src="./immagini/facebook.png"  class="facebook">
+        </a>
+        <a  href="https://www.linkedin.com/in/aldo-brunet-590117208"> 
+            <img src="./immagini/linkedin.png" class="linkedin">
+        </a>
+        
+    </div>
+
+    <div class="gotoup"><svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z" />
+    </svg>
     
     <script type="text/javascript" src="./javascript/file.js"></script>
 </body>

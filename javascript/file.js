@@ -16,6 +16,8 @@ let close2 = document.querySelector(".close2");
 let close3 = document.querySelector(".close3");
 let close4 = document.querySelector(".close4");
 let close5 = document.querySelector(".close5");
+let layout = document.querySelector(".layout");
+let gotoup = document.querySelector(".gotoup");
 
 griditem.onclick = () => {
   modal.style.display = "block";
@@ -60,3 +62,10 @@ close4.onclick = () => {
 close5.onclick = () => {
   modal5.style.display = "none";
 };
+
+window.onscroll = () => {
+  gotoup.onclick = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+};
+

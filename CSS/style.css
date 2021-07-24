@@ -15,9 +15,9 @@ html,body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: scroll;
-    
+    background-attachment: fixed;
 }
+
 
 @media screen and (max-width: 480px) {
     .sfondo{
@@ -107,9 +107,9 @@ text-align: center;
   /* SOCIAL */
 
   .social{
-      position: absolute;
-      left: 2%;
-      bottom: 40%;
+     position: fixed;
+     left: 3%;
+     bottom: 40%;
       display: flex;
       flex-direction: column;
   }
@@ -444,4 +444,132 @@ border-radius: 10px;
   }
 
 
+  /* PORFOLIO */
 
+  .portfolio{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    border-top: 2px white solid;
+    border-radius: 10px;
+  }
+
+
+  .e-commerce{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 30px auto;
+    transition: width 0.5s ease, height 0.5s ease;
+
+  }
+
+  .e-commerce:hover{
+    width: 315px;
+    height: 315px;
+  }
+
+
+  .portfolio a{
+    color: white;
+    width: auto;
+    padding: 0 3px;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+
+  .portfolio a:visited{
+    color: white;
+    
+  }
+
+  @media screen and (max-width: 648px) {
+    .e-commerce{
+      width: 250px;
+      height: 250px;
+    }
+  }
+
+
+  /* CONTACT */
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    border-top: 2px white solid;
+    border-radius: 10px;
+  }
+
+  .form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(61, 58, 58, 0.459);
+    
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin: 0 auto;
+  }
+
+  .intform{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    
+  }
+
+  .intform input,textarea{
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgba(202, 197, 197, 0.363);
+    outline: none;
+    border: none;
+    padding: 5px 3px;
+    border-radius: 10px;
+  }
+
+  .submit{
+    width: 30%;
+    border: 1px solid white !important;
+    
+  }
+
+  .submit:hover{
+    background-color: white !important;
+    color: black !important;
+  }
+
+
+  @media screen and (max-width: 648px) {
+
+    .intform{
+      width: 95%;
+    }
+  }
+
+  /* START */
+
+  .gotoup{
+    position: fixed;
+    left: 3%;
+    bottom: 2%;
+    width: 40px;
+    color: red;
+    transition: width 0.5s ease;
+  }
+
+  .gotoup:hover{
+    width: 50px;
+  }
