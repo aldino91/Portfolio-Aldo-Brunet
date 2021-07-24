@@ -9,10 +9,12 @@ html,body{
 
 /* IMMAGINE DI SFONDO */
 .sfondo{
-    background-image: url(../immagini/aldo-studiando2.jpeg);
+    background-image: url(../immagini/aldo-studiando2.jpeg) ;
     width: 100vw;
     height: 100vh;
-    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
