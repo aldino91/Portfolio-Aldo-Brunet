@@ -1,3 +1,5 @@
+"use strict";
+
 let griditem = document.querySelector(".griditem");
 let griditem1 = document.querySelector(".griditem1");
 let griditem2 = document.querySelector(".griditem2");
@@ -68,4 +70,3 @@ window.onscroll = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 };
-
