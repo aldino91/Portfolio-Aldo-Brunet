@@ -20,6 +20,7 @@ let close4 = document.querySelector(".close4");
 let close5 = document.querySelector(".close5");
 let layout = document.querySelector(".layout");
 let gotoup = document.querySelector(".gotoup");
+let form = document.querySelector("form");
 
 griditem.onclick = () => {
   modal.style.display = "block";
@@ -70,3 +71,7 @@ window.onscroll = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
 };
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
