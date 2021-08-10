@@ -306,7 +306,7 @@ background-color: rgba(230, 231, 231, 0.521);
 
   .form{
     width: 80%;
-    color: white;
+    color: white !important;
     display: flex;
     flex-direction: column;
     background-color: rgba(61, 58, 58, 0.459);
@@ -325,17 +325,20 @@ background-color: rgba(230, 231, 231, 0.521);
   }
 
   .intform input,textarea{
-    color: white;
+    color:black;
     margin-bottom: 10px;
-    background-color: rgba(202, 197, 197, 0.363);
+    /* background-color: rgba(202, 197, 197, 0.363); */
     outline: none;
     border: none;
     padding: 5px 3px;
     border-radius: 10px;
   }
 
+
+
   .submit{
     width: 30%;
+    color: white;
     border: 1px solid white !important;
     
   }
