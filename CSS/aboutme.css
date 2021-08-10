@@ -7,16 +7,17 @@
     width: 90%;
     text-align: center;
     margin: 40px auto;
-    color: white;
-    border-top: 2px white solid;
+    color: black;
+    border-top: 2px black solid;
     border-radius: 10px;
+    background-color: rgba(230, 231, 231, 0.521);
 
   }
 
 
   .gridcontainer{
       width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: rgba(3, 3, 3, 0.144);
     border-radius: 10px;
     display: grid;
